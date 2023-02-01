@@ -10,7 +10,7 @@ import (
 	"strconv"
 )
 
-func Method1() {
+func Type1() {
 	port := flag.Int("port", 8080, "")
 	flag.Parse()
 
@@ -19,7 +19,7 @@ func Method1() {
 	conn.Accept()
 }
 
-func Method2() {
+func Type2() {
 
 	// Define routes and handlers
 	route := fiber.New()
